@@ -18,10 +18,11 @@ fun main() {
     val altura = scanner.nextFloat()
 
     val altxalt = altura * altura
-    val imc = peso + altxalt
-    val imcr = imc.toInt()
+    val imc = peso / altxalt
+    //val imcr = imc.toInt()
 
     println("""Bem $name!
         |Sua idade é $idade!  
-        |Seu IMC = $imcr!""".trimMargin())
+        |Seu IMC = $imc!""".trimMargin())
+
 }

@@ -1,4 +1,4 @@
-package curso.kotlin.devsyd.estudoskotlin.kotlin.c2.FirstSteps
+package curso.kotlin.devsyd.estudoskotlin.kotlin.c2.FirstSteps.exercicios
 
 import java.util.Scanner
 

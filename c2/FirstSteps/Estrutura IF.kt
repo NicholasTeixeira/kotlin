@@ -8,9 +8,11 @@ fun main() {
     print("Qual a temperatura hoje?")
     val temp = scanner.nextInt()
 
-    if (temp > 20){
+    if (temp > 25){
         println("Está calor")
     }
-    else
+    else {
         println("Está fresquinho")
+    }
+    println("Fim do Programa")
 }

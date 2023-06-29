@@ -28,11 +28,11 @@ fun main() {
     else if (y >= 18 && y <= 65){
         p = "Adulto"
     }
-    else if (y >= 66){
+    else if (y >= 66 && y <=130){
         p = "Sênior"
     }
     else {
-        p = "null"
+        p = "Invalido"
     }
 
     println("$name você é $p!")

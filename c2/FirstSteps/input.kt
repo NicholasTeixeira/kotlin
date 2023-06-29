@@ -1,6 +1,5 @@
 package curso.kotlin.devsyd.estudoskotlin.kotlin.c2.FirstSteps
 
-import androidx.core.graphics.scaleMatrix
 import java.util.Scanner
 
 fun main() {

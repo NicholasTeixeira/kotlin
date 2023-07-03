@@ -5,8 +5,14 @@ fun main() {
     val n = readln().toInt()
 
     var i = 1
-    while (i <= 10) {
+    val m = 10
+    while (i <= m) {
         println("$n X $i = ${n * i}")
         i++
     }
+
+    println()
+
+    for (x in 1..m)
+        println("$n X $x = ${n * x}")
 }
